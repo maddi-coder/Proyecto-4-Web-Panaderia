@@ -1,0 +1,26 @@
+@use 'config' as c;
+
+.moduloBoton02{
+    color: c.$color00;
+    background-color: c.$color01;
+    border-radius: 30px;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+   
+    &:hover >img {
+transform: rotate(-45deg);
+    }
+    >img{
+        width: 40px;
+        padding: 3px;
+        padding-left: 0.5;
+        background-color: c.$color00;
+        border-radius: 30px;
+
+    }
+}
