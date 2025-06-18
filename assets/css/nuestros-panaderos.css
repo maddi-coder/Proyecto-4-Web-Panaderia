@@ -559,18 +559,18 @@ footer ul {
 }
 
 header {
-  background-image: url("../img/panaderia-pasteleria-aginaga-1500.avif");
+  background-image: url("../img/vistas/quienes-somos/Obrador-Hondarribi-1500.avif");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 @media only screen and (min-width: 800px) {
   header {
-    background-image: url("../img/panaderia-pasteleria-aginaga-1800.avif");
+    background-image: url("../img/vistas/quienes-somos/Obrador-Hondarribi-1800.avif");
   }
 }
 @media only screen and (min-width: 1200px) {
   header {
-    background-image: url("../img/panaderia-pasteleria-aginaga-2560.avif");
+    background-image: url("../img/vistas/quienes-somos/Obrador-Hondarribi-2560.avif");
   }
 }/*# sourceMappingURL=nuestros-panaderos.css.map */
