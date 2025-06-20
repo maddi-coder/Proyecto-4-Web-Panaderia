@@ -577,4 +577,7 @@ header {
   header {
     background-image: url("../img/panaderia-pasteleria-aginaga-2560.avif");
   }
+}
+header h1 {
+  color: aquamarine;
 }/*# sourceMappingURL=main.css.map */
