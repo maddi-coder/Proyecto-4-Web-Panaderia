@@ -1,0 +1,22 @@
+@use 'config' as c;
+@use 'global';
+@use 'art03';
+@use 'artform';
+@use 'sect02';
+@use 'moduloBoton01';
+@use 'moduloBoton02';
+
+header{
+    background-image: url(../img/vistas/contacto/obrador-el-horno-de-hondarribia-1500.avif);
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+
+    @media only screen and (min-width:c.$tablet){
+        background-image: url(../img/vistas/contacto/obrador-el-horno-de-hondarribia-1800.avif);
+    }
+
+    @media only screen and (min-width:c.$desktop){
+        background-image: url(../img/vistas/contacto/obrador-el-horno-de-hondarribia-2560.avif);
+    }
+}

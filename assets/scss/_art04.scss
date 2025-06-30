@@ -1,0 +1,89 @@
+@use 'config' as c;
+
+.art04{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 2rem;
+    padding: 0 c.$padMin;
+
+    @media only screen and (min-width:c.$desktop){
+        width: 80%;
+        padding: initial;
+        row-gap: 4rem;
+    }
+
+    h3{
+        color: c.$color01;
+        font-size: clamp(1.2rem, 5vm, 4rem);
+        font-weight: 600;
+        font-family: c.$fuenteTextos;
+        color: c.$color02;
+    }
+
+    .raya{
+        width: 15%;
+        height: 2px;
+        background-color: c.$color02;
+        border-radius: 1px;
+    }
+
+    .cajafichas{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        row-gap: 3rem;
+
+        @media only screen and (min-width:c.$tablet){
+            flex-direction: row;
+            align-items:flex-start;
+            justify-content: space-between;
+            column-gap: 2rem;
+        
+        }
+        
+        .ficha{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            row-gap: 1rem;
+
+            @media only screen and (min-width:c.$tablet){
+                width: 23%;
+                max-width: initial;
+            }
+        
+
+            img{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;
+            }
+
+            p{
+                 width: 100%;
+                 text-align: center;
+                 @media only screen and (min-width:c.$tablet){
+                    width: 80%;
+                 }
+            }
+
+            h4{
+                order: 3;
+                letter-spacing: 1px;
+            }
+
+             
+        }
+    
+    }
+
+}
