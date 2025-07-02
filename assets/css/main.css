@@ -6,15 +6,15 @@
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+  font-family: "DMSerif";
+  src: url("../Fonts/DMSerifText-Regular.ttf");
 }
 @font-face {
-  font-family: "Staatliches";
-  src: url("../fonts/Staatliches-Regular.ttf");
+  font-family: "Spectral";
+  src: url("../Fonts/Spectral-Regular.ttf");
 }
 h1, h2, h3 {
-  font-family: "Staatliches";
+  font-family: "DMSerif";
 }
 
 h1 {
@@ -25,23 +25,24 @@ h1 {
 
 h2 {
   color: #717171;
-  font-size: 3rem;
-  letter-spacing: 4px;
+  font-size: 4rem;
+  letter-spacing: 2px;
 }
 
 h3 {
-  color: #d14d4d;
+  color: #d92222;
   font-size: 2rem;
   letter-spacing: 2px;
 }
 
 p {
-  font-family: "Open Sans";
+  font-family: "Spectral";
   color: rgb(29, 29, 29);
+  font-size: 1.3rem;
 }
 
 a {
-  font-family: "Open Sans";
+  font-family: "Spectral";
   text-decoration: none;
 }
 
@@ -64,18 +65,18 @@ a {
 .h2Especial span {
   width: 60px;
   height: 2px;
-  background-color: #d14d4d;
+  background-color: #d92222;
 }
 .h2Especial h2 {
-  color: #d14d4d;
-  font-family: "Open Sans";
+  color: #d92222;
+  font-family: "Spectral";
   font-size: 1.3rem;
 }
 
 .boton {
   padding: 0.7rem 4rem;
   color: white;
-  background-color: #d14d4d;
+  background-color: #d92222;
   border-radius: 5px;
   letter-spacing: 3px;
   font-weight: 600;
@@ -84,8 +85,8 @@ a {
 }
 .boton:hover {
   background-color: white;
-  color: #d14d4d;
-  border-color: #d14d4d;
+  color: #d92222;
+  border-color: #d92222;
 }
 .boton:active {
   transform: scale(0.95);
@@ -185,7 +186,7 @@ nav .idiomas {
 header {
   width: 100%;
   height: 100dvh;
-  background-color: rgb(122, 234, 198);
+  background-color: rgb(29, 29, 29);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -546,7 +547,7 @@ footer ul {
        column-gap: 1rem;
 }
 .moduloBoton01:hover span {
-  color: #d14d4d;
+  color: #d92222;
 }
 .moduloBoton01:hover img {
   filter: invert(36%) sepia(32%) saturate(2837%) hue-rotate(337deg) brightness(105%) contrast(65%);

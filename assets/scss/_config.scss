@@ -16,23 +16,22 @@
 
 // Configuración de fuentes
 @font-face {
-    font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+    font-family: 'DMSerif';
+    src: url('../Fonts/DMSerifText-Regular.ttf');
 }
 @font-face {
-    font-family: 'Staatliches';
-    src: url('../fonts/Staatliches-Regular.ttf');
+    font-family: 'Spectral';
+    src: url('../Fonts/Spectral-Regular.ttf');
 }
 
 // Variables del proyecto
-$fuenteTitulos:'Staatliches';
-$fuenteTextos:'Open Sans';
+$fuenteTitulos:'DMSerif';
+$fuenteTextos:'Spectral';
 
 $color00:white;
 $color01: rgb(29, 29, 29);
 $color01bis:#717171;
-$color02: #d14d4d;
-$color03: rgb(122, 234, 198);
+$color02: #d92222;
 
 $tablet: 800px;
 $desktop: 1200px;
@@ -53,8 +52,8 @@ h1{
 }
 h2{
     color: $color01bis;
-    font-size: 3rem;
-    letter-spacing: 4px;
+    font-size: 4rem;
+    letter-spacing: 2px;
 }
 h3{
     color: $color02;
@@ -64,6 +63,7 @@ h3{
 p{
     font-family: $fuenteTextos;
     color: $color01;
+    font-size: 1.rem;
 }
 a{
     font-family: $fuenteTextos;      
